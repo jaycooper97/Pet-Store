@@ -1,0 +1,137 @@
+body{
+    background-color: blanchedalmond;
+}
+
+/*Links in Navbar*/
+#nav-link{
+    color: crimson;
+    font-size: x-large;
+}
+
+/*Main Headings' Styles*/
+#head{
+    font-size: xx-large;
+    color: rgb(117, 3, 60);
+}
+
+/*Second Headings' Styles*/
+#head2{
+    color: rgb(3, 3, 175);
+    font-size: xx-large;
+}
+
+/*List of Icons*/
+.list-inline-item{
+    font-size: 30px;
+    width: 250px;
+}
+
+/*List Items' <p></p>*/
+.list-par{
+
+}
+
+/*Styles for Input Filed Containers*/
+.input{
+    width: 100%;
+    padding: 15px;
+    margin: 1px;
+    border: none;
+    opacity: 70%;
+}
+
+/*Input Field Text Styles*/
+input, select, textarea{
+    color:black;
+    font-size: large;
+}
+
+/*Image Inside Contact Page's Form*/
+.form-img{
+    background-image: url(./img/cat\ dog.avif);
+    
+    /*Centers and scales image*/
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* contain reduces size*/
+    background-size: contain; 
+    position: relative;
+}
+
+/*First Headings' Styling*/
+#first{
+font-size: xx-large;
+}
+
+/*Image for Cards Styling*/
+.img{
+    size: 200px;
+    max-width: 900px;
+    border: 10px solid aqua;
+}
+
+/*Contact Page's Container for Form*/
+.container{
+    display: grid;
+    height: 1000px;
+}
+
+/*Body within Card Styling*/
+.card-body{
+    background-color: rgb(201, 115, 172);
+}
+
+/*Paragraph within Cards Styling*/
+.card-par{
+    font-size: large;
+}
+
+/* Footer Styles */
+.foot{
+    font-size: xx-large;
+    background-color: lawngreen;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*Media Queries*/
+@media screen and (max-width: 1200px) {
+    .nav-link{
+    font-size: x-large;
+    }
+
+    #head{
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    h2{
+        font-style: oblique;
+        text-align: left;
+    } 
+
+    .list-inline-item{
+        font-size: 50px;
+        width: 200px;
+    }
+
+    /*List Items' <p></p>*/
+    .list-par{
+    font-size: x-large;
+    }
+
+    .img{
+        size: 50px;
+        max-width: 600px;
+    }
+}
+
+
+
+   
