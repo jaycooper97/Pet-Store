@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./store.css">
+  <title>Cat Shop</title>
+</head>
+
+<body>
+  <style>
+    #market{
+      display: flex;
+    }
+  </style>
+  <nav id="navbar">
+    <a id="shop-nav-link" href="./store.html">Dog Shop</a>
+    <a id="shop-nav-link" href="./store3.html">Bunny Shop</a>
+    <a id="shop-nav-link" href="./store4.html">Bird Shop</a>
+    <br>
+    <br>
+
+    <h1 id="head"> Purrfect Cat Supplies</h1>
+    <br>
+    <div class="row">  <!--button container-->
+      <div class="col">
+        <button type="button" class="btn" data-toggle="modal" data-target="#cart">Cart (<span
+            class="total-count"></span>)</button><button class="clear-cart btn">Clear Cart</button>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+
+  <!--Cat Carriers-->
+  <h2 id="head2">Cat Carriers</h2>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">  <!--Start of Card-->
+          <img class="card-img-top" src="./img/Cat Carrier.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Kitty Carrier</h4>
+            <p class="card-text">Price: $30</p>
+            <p class="des">Cute brown and beige cat carrier - small to medium-sized cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>  <!--End of Card-->
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/Cat Carrier2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Kitty Carrier</h4>
+            <p class="card-text">Price: $15</p>
+            <p class="des">Small carrier with metal front door - kittens to small cats</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/Cat Carrier3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Kitty Carrier/h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Yellow and gray small carrier - kittens only</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/Cat Carrier4.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Enclosed Zip-Up Carrier</h4>
+            <p class="card-text">Price: $25</p>
+            <p class="des">Pink enclosed carrier; duffle bag style, zip-up - small to medium-sized cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/Cat Carrier5.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Zip-Up Gym Duffle Bag Carrier</h4>
+            <p class="card-text">Price: $25</p>
+            <p class="des">Zip-up gym dufflebag style carrier; zebra print - medium to large cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/Cat Carrier6.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Enclosed Carrier</h4>
+            <p class="card-text">Price: $30</p>
+            <p class="des">Gray enclosed carrier with pockets and zip-up - small to medium-sized cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <!--Cat/Kitten Collars-->
+  <h2 id="head2">Cute Collars for All Sizes</h2>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/kitten collar.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Kitten Collar</h4>
+            <p class="card-text">Price: $10</p>
+            <p clas="des">Small and cute red bandana style kitten collar with a red ball charm - kittens only</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/kitten collar2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Kitten Collar</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Cute pink collar with a pink bell charm - medium to large kittens</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/kitten collar3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Kitten Collar</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Red adjustable collar with a blue ball charm - smaller kittens</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/cat collar2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Hot Pink Cat Collar</h4>
+            <p class="card-text">Price: $20</p>
+            <p class="des">Pink collar with cat-shaped buckle and gold ball charm - medium to large cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src=".//img/cat collar3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Cute Baby Blue Collar</h4>
+            <p class="card-text">Price: $25</p>
+            <p class="des">Baby blue collar with buckle - small to medium-sized cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat collar4.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Brown Leather Collar</h4>
+            <p class="card-text">Price: $30</p>
+            <p class="des">Brown leather cat collar with circle charm - small to medium-sized cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Collar Tags-->
+  <h2 id="head2">Stylish Collar Tags & Charms</h2>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/Cat bell.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Cute Red Cat Bell</h4>
+            <p class="card-text">Price: $8</p>
+            <p class="des">Cute red bell cat charm - customization available</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat bell2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Golden Snitch Cat Bell</h4>
+            <p class="card-text">Price: $12</p>
+            <p class="des">Designed after Harry Potter's Golden Snitch</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat bow.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Pink Cat Bow</h4>
+            <p class="card-text">Price: $15</p>
+            <p class="des">Cute pink bow for pretty girl cats</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/cat bow2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Pinstripe Cat Bow</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Dapper pinstripe cat bow for handsome Tomcats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src=".//img/cat jewelry.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Pink Cat Pendant</h4>
+            <p class="card-text">Price: $20</p>
+            <p class="des">Cat-shaped, pink pendant - pretty girl cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat jewelry2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Pink Studded Cat Charm</h4>
+            <p class="card-text">Price: $20</p>
+            <p class="des">Pink bejeweled bone charm - pretty girl cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Wet and Dry Cat Food-->
+  <h2 id="head2">Nutritious Wet & Dry Cat Food</h2>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat food.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Complete Nutrition Adult Cat Food</h4>
+            <p class="card-text">Price: $15</p>
+            <p class="des">Complete nutrition adult dry food - 20lbs</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat food2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Royal Canin Adult Cat Food</h4>
+            <p class="card-text">Price: $12</p>
+            <p class="des">Adult cat food - specified for Siamese cats - 16lbs</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat food3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Salmon & Chicken Healthy Cat Treats</h4>
+            <p class="card-text">Price: $15</p>
+            <p class="des">Chicken and salmon flavored adult cat treats - two pack</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/wet cat food.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Moist Meals Complete Adult Wet Food</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Complete nutrition wet cat food - tuna flavor</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/wet cat food2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Wilderness  Wet Cat Food</h4>
+            <p class="card-text">Price: $16</p>
+            <p class="des">Three-can variety pack - chicken, salmon, and turkey wet food - three pack</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/wet cat food3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Champion Breed Wet Cat Food</h4>
+            <p class="card-text">Price: $20</p>
+            <p class="des">Four cans of mixed girll and ocean whitefish and tuna flavors - four pack</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Cat Litter-->
+  <h2 id="head2">Scented & Unscented Litter</h2>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat litter.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Bio Kat's Classic Cat Litter</h4>
+            <p class="card-text">Price: $10</p>
+            <p xdlass="des">Unscented cat litter - 14lbs</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat litter2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Fine Feline Scoopable Cat Litter</h4>
+            <p class="card-text">Price: $12</p>
+            <p class="des">Scented cat litter with baking soda - 14lbs</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat litter3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Fresh Step Multi Cat Scented Cat Litter</h4>
+            <p class="card-text">Price: $15</p>
+            <p class="des">Multi cat scented litter - 19lbs</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/cat litter4.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Scoop Away Lightweight Extra Strength Cat Litter</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Lightweight extra strength litter - 15.4lbs</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat litter5.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Lasting Pride Natural Cat Litter</h4>
+            <p class="card-text">Price: $8</p>
+            <p class="des">All natural unscented cat litter - 7lbs</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat litter6.jpeg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Kitty Diggins Fragrance-Free Cat Litter</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Two bags of fragrance-free, unscented natural litter - 7lbs</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Litter Boxes-->
+  <h2 id="head2">Litter Boxes</h2>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/litter box.webp" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Hot Pink Enclosed Litter Box</h4>
+            <p class="card-text">Price: $15</p>
+            <p class="des">Pink litter box with lid - small to medium-sized cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/litter box2.jpeg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Prism-Shaped Enclosed Litter Box</h4>
+            <p class="card-text">Price: $20</p>
+            <p class="des">Prism-shaped box with open front face and lid - medium to large cats</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/litter box3.jpeg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Beige & Cremè Small Litter Box with Handle</h4>
+            <p class="card-text">Price: $8</p>
+            <p class="des">Beige and cremè litter box with handle and door flap - kittens to smaller cats</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/litter box4.jpeg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Open Top Litter Box</h4>
+            <p class="card-text">Price: $18</p>
+            <p class="des">Open top litter box - all cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/litter box5.jpeg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Open Top Plastic Litter Box Twin Pack</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Black and white plastic bin litter boxes - two pack - all cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/litter box6.jpeg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Open Top Blue Litter Box</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Open top plastic litter box - kittens to small cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Toys and Scratch Towers-->
+  <h2 id="head2">Scratch Towers & Toys</h2>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat scratch.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Multi Seat Scratch Tower</h4>
+            <p class="card-text">Price: $40</p>
+            <p class="des">Multi seat cat scratch tower</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat scratch2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Tall Scratching Post</h4>
+            <p class="card-text">Price: $20</p>
+            <p class="des">Tall and tan sratching post</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat scratch3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Small Two-Seat Scratch Tower</h4>
+            <p class="card-text">Price: $14</p>
+            <p class="des">Small scratch tower - two seats - kittens only</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/cat toy.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Mouse & Rainbow Balls</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Stuffed mouse and two rainbow balls</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat toy2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Neutron Cat Ball</h4>
+            <p class="card-text">Price: $7</p>
+            <p class="des">Rainbow, neutron-shaped, hard rubber ball</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat toy3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Dangling Fish Cat Toy</h4>
+            <p class="card-text">Price: $5</p>
+            <p class="des">Pink and white dangling fish with stick</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Grooming-->
+  <h2 id="head2">Keep Your Kitty Pretty</h2>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat tool.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Mini Nail Trimmer</h4>
+            <p class="card-text">Price: $13</p>
+            <p class="des">Mini scissor-shaped nail trimmer -kittens</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat tool2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Pink Nail Trimmer with Spring</h4>
+            <p class="card-text">Price: $20</p>
+            <p class="des">Pink nail trimmer with spring for mobility</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat tool3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Easy Grip Nail Trimmer with Spring</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Trimmer with easy grips on handles and spring for mobility</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/cat tool4.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Scissor-Style Nail Trimmer</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Black pair of scissors with finger holes for steadiness</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat tool5.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Electric Nail Trimmer</h4>
+            <p class="card-text">Price: $30</p>
+            <p class="des">Electric easy trim nail trimmer</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat tool6.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Pretty Kitty Complete Grooming Set</h4>
+            <p class="card-text">Price: $35</p>
+            <p class="des">Grooming kit with four nail clippers, an electric razor for (long-hairs), and rake combs</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Cat Brushes Section in Grooming-->
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat brush.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Gray & Black Cat Brush with Button</h4>
+            <p class="card-text">Price: $20</p>
+            <p class="des">Gray and black brush with fur dispense button</p>
+            <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat brush2.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Handheld Fur Vacuum</h4>
+            <p class="card-text">Price: $35</p>
+            <p>Handheld mini vacuum with strong suction power</p>
+            <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col"> <!--Card Start-->
+        <div class="card">
+          <img class="card-img-top" src="./img/cat brush3.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Green & Gray Cat Brush</h4>
+            <p class="card-text">Price: $15</p>
+            <p class="des">Green and gray rake brush for matted fur</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div> <!--Card End-->
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat brush4.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Blue & Black Fur Rake Brush</h4>
+            <p class="card-text">Price: $18</p>
+            <p class="des">Blue rake brush - best for long-hair cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat brush5.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Black Paddle Cat Brush</h4>
+            <p class="card-text">Price: $10</p>
+            <p class="des">Black paddle brush for short-hair cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="./img/cat brush6.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Black & Yellow Wide Rake Cat Brush</h4>
+            <p class="card-text">Price: $15</p>
+            <p class="des">Yellow rake brush for long-hair cats</p>
+            <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer class="foot text-success">We're here for all of your pet needs; call us today to schedule a consultation
+    for pet adoption. It'll be the cutest decision you've ever made!
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./store.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./store.css">
+    <title>Bunny Shop</title>
+</head>
+
+<body>
+    <style>
+        #market{
+          display: flex;
+        }
+      </style>
+    <!--Navbar-->
+    <nav id="navbar">
+        <a id="shop-nav-link" href="./store.html">Dog Shop</a>
+        <a id="shop-nav-link" href="./store2.html">Cat Shop</a>
+        <a id="shop-nav-link" href="./store4.html">Bird Shop</a>
+        <br>
+        <h1 id="head">Hop Around The Bunny Shop</h1>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn" data-toggle="modal" data-target="#cart">Cart (<span
+                        class="total-count"></span>)</button><button class="clear-cart btn">Clear Cart</button>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <!--Cages-->
+    <h2 id="head2">Rabbit Cages</h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card"> <!--Start of Card-->
+                    <img class="card-img-top" src="./img/bunny cage.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">White Metal Cage - Small to Medium-Sized Rabbits</h4>
+                        <p class="card-text">Price: $20</p>
+                        <p class="des">White metal cage - small to medium-sized rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--End of Card-->
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny cage2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Small Forest Green Rabbit Outhouse - Holds Three Small Rabbits</h4>
+                        <p class="card-text">Price: $35</p>
+                        <p class="des">Forest green outside bunny cage - can fit three small rabbits or two medium-sized rabbits</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny cage3.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Small White & Lime Green Cage - Smaller Rabbits</h4>
+                        <p class="card-text">Price: $15</p>
+                        <p class="des">Small white metal and lime green cage - smaller rabbits</p>
+                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+            </div>
+            <div class="col"> <!--Card Start-->
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny cage4.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Small & Cute Pink Cage</h4>
+                        <p class="card-text">Price: $15</p>
+                        <p class="des">Small pink metal cage - bunnies to small rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--Card End-->
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny cage5.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Luxury White Cage with Gray Litter Box</h4>
+                        <p class="card-text">Price: $40</p>
+                        <p class="des">Loft-styled white metal cage with built-in gray litter box - three bunnies, two medium-sized rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny cage6.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">White Dwarf Rabbit Cage</h4>
+                        <p class="card-text">Price: $10</p>
+                        <p class="des">Small, white metal cage with front door - dwarf bunnies to smaller rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Wood Shavings-->
+    <h2 id="head2">Wood Shavings</h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card"> <!--Start of Card-->
+                    <img class="card-img-top" src="./img/bunny shavings.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Clean Bunny Woodshavings</h4>
+                        <p class="card-text">Price: $25</p>
+                        <p class="des">All natural woodshavings - 35lbs</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--End of Card-->
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny shavings2.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Extra Select Woodshavings</h4>
+                        <p class="card-text">Price: $13</p>
+                        <p class="des">Scented woodshavings for clean smell - 15lbs</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny shavings3.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Pets with Wilko Rabbit Cage Shavings - 15lbs</h4>
+                        <p class="card-text">Price: $10</p>
+                        <p class="des">All natural unscented woodshavings - 15lbs</p>
+                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+            </div>
+            <div class="col"> <!--Card Start-->
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny shavings4.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Care Fresh Small Pet Bedding - 50lbs</h4>
+                        <p class="card-text">Price: $30</p>
+                        <p class="des">Soft shaved bedding for small animals - 50lbs</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--Card End-->
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny shavings5.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Andy by Anderson Hay Wood Pellet Bedding</h4>
+                        <p class="card-text">Price: $3.79</p>
+                        <p class="des">Hay wood pellet bedding - 5lbs</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny shavings6.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Snowflake Woodshavings Natural Pet Bedding</h4>
+                        <p class="card-text">Price: $7.35</p>
+                        <p class="des">Natural woodshavings for pet bedding - 10lbs</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Food & Water-->
+    <h2 id="head2">Food & Water Bowls</h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card"> <!--Start of Card-->
+                    <img class="card-img-top" src="./img/bunny bowl.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Large Dark Marble Water Bowl</h4>
+                        <p class="card-text">Price: $20</p>
+                        <p class="des">'Large dark marble bowl - 6 fl oz</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--End of Card-->
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny bowl2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Small Light Blue Basic Water Bowl</h4>
+                        <p class="card-text">Price: $5</p>
+                        ;<p class="des">Light blue plastic bowl - 3 fl oz</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny bowl3.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Gray Stone Water Bowl</h4>
+                        <p class="card-text">Price: $12</p>
+                        <p class="des">Medium-sized gray bowl; stone styling - 5 fl oz</p>
+                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+            </div>
+            <div class="col"> <!--Card Start-->
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny food bowl.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Small White Ceramic Food Bowl</h4>
+                        <p class="card-text">Price: $10</p>
+                        <p class="des">Small, worn-ceramic food bowl - 3oz - bunnies</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--Card End-->
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny food bowl2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Large Yellow Food Bowl</h4>
+                        <p class="card-text">Price: $12</p>
+                        <p class="des">Large yellow food bow for two medium rabbits or three small bunnies - 6oz</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny food bowl3.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Small Stainless Steel Food Bowl</h4>
+                        <p class="card-text">Price: $15</p>
+                        <p class="des">Stainless steel food bowl - 8oz</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Food-->
+    <h2 id="head2">Healthy Rabbit Food</h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card"> <!--Start of Card-->
+                    <img class="card-img-top" src="./img/bunny food.webp" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Hand-Selected Forage Timothy's Grass - 25lbs</h4>
+                        <p class="card-text">Price: $18</p>
+                        <p class="des">All natural rabbit grass - 25 lbs</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--End of Card-->
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny food2.webp" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Timothy Based Rabbit Food - 15lbs</h4>
+                        <p class="card-text">Price: $13</p>
+                        <p class="des">All natural rabbit pellets - 15lbs</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny food3.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Burgess Excel Rabbit Food - 22Ibs</h4>
+                        <p class="card-text">Price: $14</p>
+                        <p class="des">All natural healthy rabbit pellets - 22lbs</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Carriers-->
+    <h2 id="head2">Cute & Little Carriers</h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card"> <!--Start of Card-->
+                    <img class="card-img-top" src="./img/bunny carrier.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Tiny Teal & White Carrier</h4>
+                        <p class="card-text">Price: $15</p>
+                        <p class="des">Cute teal and white carrier with handle - dwarf bunnies to smaller rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--End of Card-->
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny carrier2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Small Cloth Zip-Up Carrier</h4>
+                        <p class="card-text">Price: $20</p>
+                        <p class="des">Small, gray cloth, zip-up carrier - smaller to small rabbits</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny carrier3.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Hard Case Green & Dark Gray Carrier</h4>
+                        <p class="card-text">Price: $20</p>
+                        <p class="des">Small green and dark gray carrier with ceiling door - smaller to small rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Harnesses-->
+    <h2 id="head2">Harnesses with Leashes</h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card"> <!--Start of Card-->
+                    <img class="card-img-top" src="./img/bunny harn.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Thin Powder Blue Harness with Leash</h4>
+                        <p class="card-text">Price: $27</p>
+                        <p class="des">Powder blue thin harness with matching leash - small rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--End of Card-->
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny harn2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Thin Electric Blue Harness with Leash</h4>
+                        <p class="card-text">Price: $20</p>
+                        <p class="des">Thin electric blue harness with matching leash - small rabbits</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny harn3.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Dark Blue Harness with Leash</h4>
+                        <p class="card-text">Price: $15</p>
+                        <p class="des">Dark blue harness with matching cleash - clip in - small to medium-sized rabbits</p>
+                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+            <div class="col"> <!--Card Start-->
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny harn4.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Pink and Black Body Harness with Leash</h4>
+                        <p class="card-text">Price: $23</p>
+                        <p class="des">Lightweight pink harness with matching leash - slip on - small rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--Card End-->
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny harn5.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Black & White Harness with Braided Leash</h4>
+                        <p class="card-text">Price: $13</p>
+                        <p class="des">Black and white harness with matching braided leash - all sizes</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny harn6.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Hot Pink Harness with Leash</h4>
+                        <p class="card-text">Price: $13</p>
+                        <p class="des">Pink Harness with matching rope leash - small to medium-sized rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Grooming-->
+    <h2 id="head2">Rabbit Grooming</h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card"> <!--Start of Card-->
+                    <img class="card-img-top" src="./img/bunny nails.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Small Nail Clippers</h4>
+                        <p class="card-text">Price: $8</p>
+                        <p class="des">Small, scissor-style nail clippers - bunnies</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--End of Card-->
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny nails2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Mini Clipper Kit with Nail File</h4>
+                        <p class="card-text">Price: $13</p>
+                        <p class="des">Small nail clippers with side grips for stability and a nail file</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny nails3.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Large Handle Nail Clippers</h4>
+                        <p class="card-text">Price: $10</p>
+                        <p class="des">Scissor-style clippers with wide placeholders for fingers and grips for stability</p>
+                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+            </div>
+            <div class="col"> <!--Card Start-->
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny groom.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Pretty Bunny Complete Grooming Kit</h4>
+                        <p class="card-text">Price: $20</p>
+                        <p class="des">Two rake combs, a terrier mitt, nail clippers, and a brush</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--Card End-->
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny groom2.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Girl Power Complete Grooming Set - GIRL POWER Edition</h4>
+                        <p class="card-text">Price: $25</p>
+                        <p class="des">Paddle brush, mini brush, fur duster, nail clippers with side grips, a nail file, terrier mitt, and wash glove</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny groom3.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Terrier Mitt</h4>
+                        <p class="card-text">Price: $10</p>
+                        <p class="des">Blue soft-bristle brush mitt</p>
+                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <!--Combs for Long Hairs-->
+            <h2 id="head2">Combs for Long-Hare Fluffs</h2>
+            <div class="col"> <!--Card Start-->
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny comb.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Multicolor Thin-Bristle Combs</h4>
+                        <p class="card-text">Price: $12</p>
+                        <p class="des">Multi color rake combs - four pack</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--Card End-->
+            <br>
+            <br>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny comb3.jpeg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Princess Pink Sleek Comb</h4>
+                        <p class="card-text">Price: $10</p>
+                        <p class="des">Pink and sleek rake comb</p>
+                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Toys-->
+    <h2 id="head2">Rabbit Toys</h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card"> <!--Start of Card-->
+                    <img class="card-img-top" src="./img/bunny toy.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Rainbow Bunny Tunnel</h4>
+                        <p class="card-text">Price: $13</p>
+                        <p class="des">Skinny rainbow rabbit tunnel - small bunnies to small rabbits</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div> <!--End of Card-->
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny toy2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Fuzzy Marble Bunny Tunnel</h4>
+                        <p class="card-text">Price: $15</p>
+                        <p class="des">Fuzzy marble-style rabbit tunnel - small to medium-sized rabbits</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="./img/bunny toy3.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Stuffed Carrot Chew Toy</h4>
+                        <p class="card-text">Price: $8</p>
+                        <p class="des">Stuffed carrot chew toy</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer class="foot text-success">We're here for all of your pet needs; call us today to schedule a
+        consultation
+        for pet adoption. It'll be the cutest decision you've ever made!
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="./store.js"></script>
+</body>
+
+</html>
