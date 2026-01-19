@@ -149,8 +149,8 @@ textarea {
     }
 
     .card-body {
-    background-color: rgb(201, 115, 172);
-    margin: 12px;
+        background-color: rgb(201, 115, 172);
+        margin: 12px;
     }
 
     /*cards' title*/
@@ -240,8 +240,8 @@ textarea {
     }
 
     .card-body {
-    background-color: rgb(70, 5, 48);
-    margin: 10px;
+        background-color: rgb(70, 5, 48);
+        margin: 10px;
     }
 
     /*cards' title*/
@@ -361,8 +361,8 @@ textarea {
 
 
     .card-body {
-    background-color: rgb(201, 115, 172);
-    margin: 20px;
+        background-color: rgb(201, 115, 172);
+        margin: 20px;
     }
 
     /*cards' title*/
@@ -448,120 +448,123 @@ textarea {
 
 
 @media (width >=1025px) {
-        #nav-link {
-            font-size: 30px;
-            color: orange;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-style: bolder;
-        }
-
-        /*1st headings' styles*/
-        #head {
-            font-size: 25px;
-            text-align: center;
-            color: rgb(44, 109, 111);
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        /*2nd headings styles*/
-        #head2 {
-            font-size: 40px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            color: rgb(44, 13, 13);
-        }
-
-        /*content paragraphs*/
-        #first {
-            font-size: 27.5px;
-            color: rgb(39, 2, 65);
-        }
-
-        /*cards' image*/
-        .img {
-            size: 28px;
-            max-width: 480px;
-            border: 8px dashed rgb(187, 60, 187);
-        }
-
-
-        .card-body {
-    background-color: rgb(106, 10, 74);
-    margin: 17px;
+    #nav-link {
+        font-size: 30px;
+        color: orange;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: bolder;
+        margin: 12px;
     }
 
-        /*cards' title*/
-        .card-title {
-            font-size: 30px;
-            color: rgb(17, 175, 17);
-        }
-
-        /*paragraphs in card*/
-        .card-par {
-            font-size: 22px;
-            color: rgb(15, 7, 70);
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        /*Services Styling*/
-        #icon {
-            color: rgb(118, 4, 4);
-            text-align: center;
-        }
-
-        /*Input fields' text styles*/
-        input,
-        select,
-        textarea {
-            color: rgb(1, 185, 185);
-            font-size: x-large;
-        }
-
-        /*Contact Page's Container for Form*/
-        .container {
-            display: grid;
-            height: 980px;
-        }
-
-        /*Styles for Input Field Containers*/
-        .input {
-            width: 100%;
-            padding: 8px;
-            margin: 1px;
-            opacity: 75%;
-        }
-
-        /*Centers and scales image*/
-        .form-img {
-            display: block;
-            margin: 0;
-            padding: 0;
-        }
-
-        /*list of icons*/
-        .list-inline-item {
-            font-size: 50px;
-            width: 200px;
-        }
-
-        /*Store Info Styling*/
-        .hrs {
-            font-size: 26.5px;
-            font-style: bold;
-            font-style: italic;
-            color: rgb(129, 183, 36);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        /*FB and Twitter Icons*/
-        .list-inline-item {
-            font-size: x-large;
-            font-style: oblique;
-            color: rgb(176, 44, 94);
-        }
-
-        /*footer styles*/
-        .foot {
-            font-size: 20.5px;
-            background-color: rgb(1, 82, 82);
-        }
+    /*1st headings' styles*/
+    #head {
+        font-size: 25px;
+        text-align: center;
+        color: rgb(44, 109, 111);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+
+    /*2nd headings styles*/
+    #head2 {
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(44, 13, 13);
+        margin: 12px;
+    }
+
+    /*content paragraphs*/
+    #first {
+        font-size: 27.5px;
+        color: rgb(39, 2, 65);
+        margin: 12px;
+    }
+
+    /*cards' image*/
+    .img {
+        size: 28px;
+        max-width: 480px;
+        border: 8px dashed rgb(187, 60, 187);
+    }
+
+
+    .card-body {
+        background-color: rgb(106, 10, 74);
+        margin: 17px;
+    }
+
+    /*cards' title*/
+    .card-title {
+        font-size: 30px;
+        color: rgb(17, 175, 17);
+    }
+
+    /*paragraphs in card*/
+    .card-par {
+        font-size: 22px;
+        color: rgb(15, 7, 70);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*Services Styling*/
+    #icon {
+        color: rgb(118, 4, 4);
+        text-align: center;
+    }
+
+    /*Input fields' text styles*/
+    input,
+    select,
+    textarea {
+        color: rgb(1, 185, 185);
+        font-size: x-large;
+    }
+
+    /*Contact Page's Container for Form*/
+    .container {
+        display: grid;
+        height: 980px;
+    }
+
+    /*Styles for Input Field Containers*/
+    .input {
+        width: 100%;
+        padding: 8px;
+        margin: 1px;
+        opacity: 75%;
+    }
+
+    /*Centers and scales image*/
+    .form-img {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*list of icons*/
+    .list-inline-item {
+        font-size: 50px;
+        width: 200px;
+    }
+
+    /*Store Info Styling*/
+    .hrs {
+        font-size: 26.5px;
+        font-style: bold;
+        font-style: italic;
+        color: rgb(129, 183, 36);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /*FB and Twitter Icons*/
+    .list-inline-item {
+        font-size: x-large;
+        font-style: oblique;
+        color: rgb(176, 44, 94);
+    }
+
+    /*footer styles*/
+    .foot {
+        font-size: 20.5px;
+        background-color: rgb(1, 82, 82);
+    }
+}
