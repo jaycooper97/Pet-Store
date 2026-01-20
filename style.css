@@ -35,7 +35,8 @@ body {
 
 /*Body within Card Styling*/
 .card-body {
-    background-color: rgb(201, 115, 172);
+    background-color: rgb(23, 99, 96);
+    border: 12px solid rgb(11, 45, 43);
 }
 
 /*card's title*/
@@ -150,7 +151,7 @@ textarea {
 
     .card-body {
         background-color: rgb(201, 115, 172);
-        margin: 12px;
+        border: 12px dotted rgb(105, 55, 89);
     }
 
     /*cards' title*/
@@ -236,12 +237,12 @@ textarea {
     .img {
         size: 28px;
         max-width: 380px;
-        border: 8px dashed purple;
+        border: 8px dashed rgb(99, 0, 99);
     }
 
     .card-body {
         background-color: rgb(70, 5, 48);
-        margin: 10px;
+        border: 10px dashed rgb(117, 1, 79)
     }
 
     /*cards' title*/
@@ -356,13 +357,13 @@ textarea {
     .img {
         size: 28px;
         max-width: 380px;
-        border: 8px solid rgb(169, 57, 169);
+        border: 8px ridge rgb(247, 152, 247);
     }
 
 
     .card-body {
-        background-color: rgb(201, 115, 172);
-        margin: 20px;
+        background-color: rgb(176, 0, 117);
+        border: 12px ridge rgb(81, 0, 54);
     }
 
     /*cards' title*/
@@ -483,14 +484,14 @@ textarea {
     .img {
         size: 28px;
         max-width: 480px;
-        border: 8px dashed rgb(187, 60, 187);
+        border: 8px double rgb(60, 77, 187);
     }
 
 
     .card-body {
-        background-color: rgb(106, 10, 74);
+        background-color: rgb(28, 3, 96);
         margin: 17px;
-        border: solid rgb(106, 10, 74);
+        border: 12px double rgb(129, 0, 199);
     }
 
     /*cards' title*/
