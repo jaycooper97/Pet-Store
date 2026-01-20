@@ -233,6 +233,10 @@ textarea {
         color: indigo;
     }
 
+    .card{
+        margin: 12px;
+    }
+
     /*cards' image*/
     .img {
         size: 28px;
