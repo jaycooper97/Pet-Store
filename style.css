@@ -35,8 +35,8 @@ body {
 
 /*Body within Card Styling*/
 .card-body {
-    background-color: rgb(23, 99, 96);
-    border: 12px solid rgb(11, 45, 43);
+    background-color: rgb(135, 239, 236);
+    border: 12px solid rgb(33, 136, 129);
 }
 
 /*card's title*/
@@ -362,7 +362,7 @@ textarea {
 
 
     .card-body {
-        background-color: rgb(176, 0, 117);
+        background-color: rgb(198, 111, 169);
         border: 12px ridge rgb(81, 0, 54);
     }
 
@@ -489,7 +489,7 @@ textarea {
 
 
     .card-body {
-        background-color: rgb(28, 3, 96);
+        background-color: rgb(125, 164, 227);
         margin: 17px;
         border: 12px double rgb(129, 0, 199);
     }
