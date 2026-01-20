@@ -490,6 +490,7 @@ textarea {
     .card-body {
         background-color: rgb(106, 10, 74);
         margin: 17px;
+        border: solid rgb(106, 10, 74);
     }
 
     /*cards' title*/
