@@ -30,13 +30,13 @@ body {
 .img {
     size: 200px;
     max-width: 1000px;
-    border: 10px solid aqua;
+    border: 4px solid aqua;
 }
 
 /*Body within Card Styling*/
 .card-body {
     background-color: rgb(157, 232, 229);
-    border: 10px solid aqua;
+    border: 4px solid aqua;
 }
 
 /*card's title*/
@@ -142,16 +142,22 @@ textarea {
         color: darkblue;
     }
 
+
+    /*  card container */
+    .card{
+        margin: 12px;
+    }
+
     /*cards' image*/
     .img {
         size: 50px;
         max-width: 600px;
-        border: 15px dotted magenta;
+        border: 4px dotted magenta;
     }
 
     .card-body {
         background-color: rgb(197, 142, 179);
-        border: 15px dotted magenta;
+        border: 4px dotted magenta;
     }
 
     /*cards' title*/
@@ -233,6 +239,7 @@ textarea {
         color: indigo;
     }
 
+    /* card container */
     .card{
         margin: 12px;
     }
@@ -241,12 +248,12 @@ textarea {
     .img {
         size: 28px;
         max-width: 623px;
-        border: 8px dashed rgb(99, 0, 99);
+        border: 4px dashed rgb(99, 0, 99);
     }
 
     .card-body {
         background-color: rgb(253, 195, 234);
-        border: 8px dashed rgb(99, 0, 99)
+        border: 4px dashed rgb(99, 0, 99)
     }
 
     /*cards' title*/
@@ -357,17 +364,23 @@ textarea {
         color: rgb(46, 27, 93);
     }
 
+    /* card container */
+    .card{
+        margin: 12px;
+    }
+
+
     /*cards' image*/
     .img {
         size: 28px;
         max-width: 380px;
-        border: 8px ridge rgb(201, 92, 165);
+        border: 4px ridge rgb(201, 92, 165);
     }
 
 
     .card-body {
         background-color: rgb(226, 159, 204);
-        border: 8px ridge rgb(201, 92, 165);
+        border: 4px ridge rgb(201, 92, 165);
     }
 
     /*cards' title*/
@@ -484,24 +497,31 @@ textarea {
         margin: 12px;
     }
 
+
+    /* card container */
+    .card{
+        margin: 12px;
+    }
+
+
     /*cards' image*/
     .img {
         size: 28px;
         max-width: 480px;
-        border: 8px double rgb(60, 77, 187);
+        border: 4px double rgb(60, 77, 187);
     }
 
 
     .card-body {
         background-color: rgb(125, 164, 227);
-        margin: 17px;
-        border: 12px double rgb(60, 77, 187);
+        /* margin: 17px; */
+        border: 4px double rgb(60, 77, 187);
     }
 
     /*cards' title*/
     .card-title {
         font-size: 30px;
-        color: rgb(17, 175, 17);
+        color: aqua;
     }
 
     /*paragraphs in card*/
