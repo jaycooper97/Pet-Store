@@ -242,6 +242,7 @@ textarea {
     /* card container */
     .card{
         margin: 12px;
+        max-width: 623px;
     }
 
     /*cards' image*/
