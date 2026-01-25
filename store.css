@@ -148,12 +148,50 @@ body {
 
 
          /* MEDIA QUERIES */
+    @media (width < 320px){
+
+    }
+
+
+
+
+
+
+
+
 @media (320px <= width <=480px){
+    /* Navbar Styles */
+    #shop-nav-link {
+    color: crimson;
+    margin-left: 8px;
+    padding-left: 8px;
+    }
+
+
+    /* 1st Headings */
+    #head{
+        font-size: 16px;
+        margin-left: 8px;
+    }
+
+
+
+
     /* 2nd Heading  Styles */
     #head2{
         font-size: 17px;
         color: #75033c;
+        margin-left: 8px;
     }
+
+
+    /* Paragraphs */
+    #first{
+        font-size: 11px;
+        margin-left: 8px;
+    }
+
+
 
     /*Card Styles*/
     .card{
@@ -184,8 +222,9 @@ body {
     }
 
 
+    /* Card Descriptions */
     .des{
-        font-size: 16px;
+        font-size: 12px;
         margin-left: 8px;
     }
 
