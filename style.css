@@ -211,9 +211,10 @@ textarea {
 
     /*footer styles*/
     .foot {
-        font-size: 20px;
-        padding-block: 1rem; /* Reduces space at the top and bottom */
-        padding-inline: 0;   /* Keeps side padding as needed */
+        font-size: .85rem;
+        margin-bottom: 0;
+        /*padding-block: 1rem;*/ /* Reduces space at the top and bottom */
+        /*padding-inline: 0;*/   /* Keeps side padding as needed */
         /* min-height: 14px;
         height: auto;
         align-items: center;
