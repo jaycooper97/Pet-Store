@@ -285,7 +285,10 @@ textarea {
 
     /* Icons' Container */
     .icons{
-        display: block;
+        display: flex;     /* Enables the flexbox layout */
+        flex-direction: row;     /* Forces items to stay in a line (default) */
+        justify-content: center; /* Centers icons horizontally */
+        gap: 15px;               /* Modern way to add even space between icons */
     }
 
     /*Input fields' text styles*/
