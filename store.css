@@ -195,7 +195,7 @@ body {
 
     /*Card Styles*/
     .card{
-    width: 235px;
+    width: 175px;
     height: 10px;
     display: flex;
     flex: 0 0 auto;
