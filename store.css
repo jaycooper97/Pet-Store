@@ -37,8 +37,8 @@ body {
 /*Card Styles*/
 .card{
     width: 300px;
-    margin: 10px;
     display: flex;
+    flex: 0 0 auto;
 }
 
 /*Card Images*/
