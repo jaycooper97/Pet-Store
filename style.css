@@ -120,7 +120,7 @@ textarea {
 @media (width < 320px){
     #nav-link {
         color: rgb(136, 180, 7);
-        font-size: 9px;
+        font-size: 12px;
         margin-left: 8px;
     }
 
