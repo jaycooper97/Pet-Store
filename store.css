@@ -38,7 +38,8 @@ body {
 .card{
     width: 300px;
     display: flex;
-    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 /*Card Images*/
