@@ -143,10 +143,10 @@ body {
 
 
          /* MEDIA QUERIES */
-@media (320px <=width <=480px){
+@media (320px <= width <=480px){
     /*Card Styles*/
-.card{
-    width: 150px;
+    .card{
+    width: 180px;
     display: flex;
     flex: 0 0 auto;
     }
