@@ -149,9 +149,16 @@ body {
 
          /* MEDIA QUERIES */
 @media (320px <= width <=480px){
+    /* 2nd Heading  Styles */
+    #head2{
+        font-size: 17px;
+        color: #75033c;
+    }
+
     /*Card Styles*/
     .card{
     width: 230px;
+    height: 175px;
     display: flex;
     flex: 0 0 auto;
     }
@@ -161,15 +168,31 @@ body {
         width: 230px;
     }
 
-    .des{
-        font-size: 12px;
+
+    /* Card Titles */
+    .card-title{
+        font-size: 18px;
         margin-left: 8px;
     }
 
 
+    /* Prices */
+    .card-text{
+        font-size: 16px;
+        margin-left: 8px;
+    }
+
+
+    .des{
+        font-size: 16px;
+        margin-left: 8px;
+    }
+
+    /* Container */
     .carousel{
         display: block;
-        width: 230px;
+        width: 75px;
+        height: 200px;
     }
 }
 
