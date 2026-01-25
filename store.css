@@ -195,8 +195,8 @@ body {
 
     /*Card Styles*/
     .card{
-    width: 175px;
-    height: 10px;
+    width: 235px;
+    height: 175px;
     display: flex;
     flex: 0 0 auto;
     }
@@ -233,6 +233,18 @@ body {
         display: block;
         width: 75px;
         height: 200px;
+    }
+
+
+
+    /* footer */
+    .foot{
+    font-size: 10px;
+    background-color: lawngreen;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     }
 }
 
