@@ -6,6 +6,8 @@ body {
 #shop-nav-link {
     color: crimson;
     font-size: 20.5px;
+    margin-left: 12px;
+    padding-left: 10px;
 }
 
 /*Shopping Cart buttons*/
