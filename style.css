@@ -107,7 +107,7 @@ textarea {
 
 /* Footer Styles */
 .foot {
-    font-size: 22px;
+    font-size: 17.5px;
     background-color: lawngreen;
     position: fixed;
     left: 0;
@@ -281,7 +281,7 @@ textarea {
     #icon {
         color: goldenrod;
         text-align: center;
-        display: flex;
+        display: block;
     }
 
     /*Input fields' text styles*/
