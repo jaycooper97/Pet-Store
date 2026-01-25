@@ -281,6 +281,7 @@ textarea {
     #icon {
         color: goldenrod;
         text-align: center;
+        display: flex;
     }
 
     /*Input fields' text styles*/
