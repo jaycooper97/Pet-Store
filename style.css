@@ -121,31 +121,36 @@ textarea {
     #nav-link {
         color: rgb(3, 139, 55);
         font-size: 20px;
+        margin-left: 8px;
     }
 
     /*1st headings' styles*/
     #head {
-        font-size: xx-large;
+        font-size: 16px;
         text-align: center;
         color: cadetblue;
+        margin: 8px;
     }
 
     /*2nd headings' styles*/
     #head2 {
         font-style: oblique;
         color: darkorange;
+        margin-left: 8px;
     }
 
     /*content paragraphs*/
     #first {
-        font-size: 26.5px;
+        font-size: 20px;
         color: darkblue;
+        margin-left: 8px;
     }
 
 
     /*  card container */
     .card{
         margin: 12px;
+        height: 175px;
     }
 
     /*cards' image*/
@@ -167,7 +172,7 @@ textarea {
 
     /*paragraphs in card*/
     .card-par {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     /*Services Styling*/
