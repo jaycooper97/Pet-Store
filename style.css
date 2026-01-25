@@ -299,7 +299,7 @@ textarea {
         background: url(./img/cat\ dog.avif);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 212.5px;
     }
 
 
