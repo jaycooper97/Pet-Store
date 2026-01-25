@@ -278,17 +278,25 @@ textarea {
         font-size: 11.7px;
     }
 
-    /*Services Styling*/
+    /*Services Styling (About Page)*/
     #icon {
         color: rgb(10, 95, 95);
         text-align: center;
     }
 
-    /*Input fields' text styles*/
+    /* Form's Container */
+    .container {
+        display: grid;
+        height: 980px;
+    }
+
+
+
+    /*Input fields' text styles (Contact Page)*/
     input,
     select,
     textarea {
-        color: rgb(78, 1, 16);
+        color: rgb(138, 30, 0);
         font-size: x-large;
     }
 
