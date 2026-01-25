@@ -299,7 +299,7 @@ textarea {
     }
 
     /* Placeholder Styles */
-    input::placeholder{
+    input::placeholder [type= submit]{
         color: rgb(118, 0, 0)
     }
 
