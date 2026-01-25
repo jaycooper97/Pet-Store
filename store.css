@@ -146,7 +146,7 @@ body {
 @media (320px <= width <=480px){
     /*Card Styles*/
     .card{
-    width: 180px;
+    width: 200px;
     display: flex;
     flex: 0 0 auto;
     }
