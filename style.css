@@ -119,7 +119,7 @@ textarea {
 /*Media Queries*/
 @media (width < 320px){
     #nav-link {
-        color: rgb(136, 180, 7);
+        color: rgb(136, 150, 5);
         font-size: 17.5px;
         margin-left: 8px;
     }
@@ -157,18 +157,18 @@ textarea {
     .img {
         size: 50px;
         max-width: 600px;
-        border: 4px dotted magenta;
+        border: 4px dotted rgb(87, 1, 172);
     }
 
     .card-body {
-        background-color: rgb(197, 142, 179);
+        background-color: rgb(192, 107, 164);
         height: 274.5px;
-        border: 4px dotted magenta;
+        border: 4px dotted rgb(192, 107, 164);
     }
 
     /*cards' title*/
     .card-title {
-        font-size: 14px;
+        font-size: 18.4px;
     }
 
     /*paragraphs in card*/
