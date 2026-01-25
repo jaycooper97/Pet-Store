@@ -303,6 +303,7 @@ textarea {
     .container {
         display: grid;
         height: 980px;
+        background-image: no-repeat;
     }
 
     /*Styles for Input Field Containers*/
