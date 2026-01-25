@@ -296,6 +296,7 @@ textarea {
     /* Form Image Styles */
     .d-flex,
     .flex-column{
+        background: url(./img/cat\ dog.avif);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
