@@ -135,8 +135,9 @@ textarea {
     /*2nd headings' styles*/
     #head2 {
         font-style: oblique;
-        color: darkorange;
+        color: rgb(181, 54, 0);
         margin-left: 8px;
+        font-size: 15.8px;
     }
 
     /*content paragraphs*/
