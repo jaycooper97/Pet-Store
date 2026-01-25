@@ -163,7 +163,6 @@ textarea {
         background-color: rgb(197, 142, 179);
         height: 303px;
         border: 4px dotted magenta;
-        margin-bottom: 10px;
     }
 
     /*cards' title*/
@@ -213,6 +212,7 @@ textarea {
     /*footer styles*/
     .foot {
         font-size: 20px;
+        margin-top: 10px;
     }
 }
 
