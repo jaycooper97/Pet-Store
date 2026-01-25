@@ -212,7 +212,10 @@ textarea {
     /*footer styles*/
     .foot {
         font-size: 20px;
-        margin-top: 10px;
+        min-height: 14px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
     }
 }
 
