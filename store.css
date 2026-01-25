@@ -46,7 +46,7 @@ body {
 
 /*Card Images*/
 .card-img-top{
-    width: 230px;
+    width: 300px;
 }
 
 /*Card Titles*/
@@ -149,6 +149,11 @@ body {
     width: 230px;
     display: flex;
     flex: 0 0 auto;
+    }
+
+    /* Card Images */
+    .card-img-top{
+        width: 230px;
     }
 
     .des{
