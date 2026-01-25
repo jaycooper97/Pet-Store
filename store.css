@@ -63,7 +63,7 @@ body {
 .add-to-cart{
     font-size: 17.5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 9px;
+    margin-left: 12px;
 }
 
 /*Carousel Container*/
@@ -129,6 +129,22 @@ body {
 
 
          /* MEDIA QUERIES */
+@media (320px <=width <=480px){
+    /*Card Styles*/
+.card{
+    width: 220px;
+    display: flex;
+    flex: 0 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
 @media (width >=1025px){
     /* Card Styles */
     .card{
