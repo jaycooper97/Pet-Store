@@ -161,7 +161,7 @@ textarea {
 
     .card-body {
         background-color: rgb(197, 142, 179);
-        height: 300px;
+        height: 303px;
         border: 4px dotted magenta;
     }
 
@@ -172,7 +172,7 @@ textarea {
 
     /*paragraphs in card*/
     .card-par {
-        font-size: 10.5px;
+        font-size: 11.5px;
     }
 
     /*Services Styling*/
