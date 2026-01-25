@@ -166,12 +166,12 @@ textarea {
 
     /*cards' title*/
     .card-title {
-        font-size: x-large;
+        font-size: 14px;
     }
 
     /*paragraphs in card*/
     .card-par {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     /*Services Styling*/
