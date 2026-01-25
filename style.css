@@ -291,27 +291,18 @@ textarea {
     }
 
 
-
     /*Input fields' text styles (Contact Page)*/
     input,
     select,
     textarea {
-        color: rgb(138, 30, 0);
         font-size: x-large;
     }
 
-    /*list of icons*/
-    .list-inline-item {
-        font-size: 50px;
-        width: 200px;
+    /* Placeholder Styles */
+    input::placeholder{
+        color: rgb(118, 0, 0)
     }
 
-    /*Store Info Styling*/
-    .hrs {
-        font-size: 26.5px;
-        font-style: italic;
-        color: rgb(42, 117, 117);
-    }
 
     /*FB and Twitter Icons*/
     .list-inline-item {
