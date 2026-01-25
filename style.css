@@ -293,6 +293,15 @@ textarea {
     }
 
 
+    /* Form Image Styles */
+    .d-flex {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    /* Input Specifics */
     .input[type=text]{
          width: 100%;           /* Makes the input fill the container */
          max-width: 212.5px;       /* Safety net to prevent it from ever going outside */
