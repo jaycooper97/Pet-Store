@@ -296,10 +296,9 @@ textarea {
     /* Form Image Styles */
     .d-flex,
     .flex-column{
-        background: url(./img/cat\ dog.avif);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 212.5px;
+        width: 80%;         /* Leave some room on the edges */
+        font-size: 16px;    /* 16px prevents iOS from "zooming in" on focus */
+        padding: 5px;       /* Slimmer internal space */
     }
 
 
