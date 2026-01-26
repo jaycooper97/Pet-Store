@@ -297,7 +297,6 @@ textarea {
     .d-flex[style="background"]{
         max-width: 212.5px;         /* Leave some room on the edges */
         font-size: 16px;    /* 16px prevents iOS from "zooming in" on focus */
-        padding: 5px;       /* Slimmer internal space */
         background-image: no-repeat;
     }
 
