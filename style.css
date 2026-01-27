@@ -321,6 +321,10 @@ textarea {
         color: rgb(118, 0, 0)
     }
 
+    .input[type=submit]{
+        margin-right: 4px;
+    }
+
 
     /*FB and Twitter Icons*/
     .list-inline-item {
