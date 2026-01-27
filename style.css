@@ -290,7 +290,6 @@ textarea {
         height: 980px;
         width: 292.8px;
         margin-left: -24px;
-        background: no-repeat center / contain;
     }
 
 
@@ -298,7 +297,7 @@ textarea {
     .d-flex.flex-column {
         max-width: 212.5px;         /* Leave some room on the edges */
         font-size: 16px;    /* 16px prevents iOS from "zooming in" on focus */
-        margin: auto;
+        background: no-repeat center / contain;
     }
 
 
