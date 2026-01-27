@@ -308,7 +308,7 @@ textarea {
 
         /* contain reduces size*/
         background-size: contain;
-        position: relative;
+        /* position: relative; */
     }
 
 
