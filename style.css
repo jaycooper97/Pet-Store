@@ -297,10 +297,18 @@ textarea {
 
 
     /* Whole Form Styles */
-    .d-flex.flex-column {
+    .form-img {
         max-width: 212.5px;         /* Leave some room on the edges */
         font-size: 16px;    /* 16px prevents iOS from "zooming in" on focus */
-        background: no-repeat center / contain;
+        background-image: url(./img/cat\ dog.avif);
+
+        /*Centers and scales image*/
+        background-position: center;
+        background-repeat: no-repeat;
+
+        /* contain reduces size*/
+        background-size: contain;
+        position: relative;
     }
 
 
