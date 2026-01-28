@@ -294,8 +294,8 @@ textarea {
 
     /* Whole Form Styles */
     .d-flex.flex-column {
-        width: 292.8px;
-        height: 980px;
+        width: 30%;
+        height: 30%;
         font-size: 16px;    /* 16px prevents iOS from "zooming in" on focus */
 
     }
