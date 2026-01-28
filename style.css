@@ -289,6 +289,7 @@ textarea {
         display: grid;
         height: 980px;
         width: 292.8px;
+        position: relative;
         margin-left: -24px;
         padding: 2rem;           /* Creates space so text doesn't touch the edges */
         border-radius: 8px;      /* Rounds the corners of the image background */
@@ -300,7 +301,12 @@ textarea {
     .d-flex.flex-column {
         max-width: 212.5px;         /* Leave some room on the edges */
         font-size: 16px;    /* 16px prevents iOS from "zooming in" on focus */
-        margin-left: 20px;
+        position: absolute;
+        left: 0;            /* Moves the image to the far left of the container */
+        z-index: -1;        /* Pushes the image behind the form */
+        width: 50%;         /* Adjust size as needed */
+        height: 100%;
+        object-fit: cover;  /* Prevents distortion when resizing */
     }
 
 
