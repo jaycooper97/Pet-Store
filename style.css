@@ -289,11 +289,6 @@ textarea {
         display: grid;
         height: 980px;
         width: 292.8px;
-        position: relative;
-        margin-left: -24px;
-        padding: 2rem;           /* Creates space so text doesn't touch the edges */
-        border-radius: 8px;      /* Rounds the corners of the image background */
-        box-sizing: border-box;  /* Ensures padding doesn't break the width */
     }
 
 
