@@ -301,6 +301,7 @@ textarea {
         max-width: 212.5px;         /* Leave some room on the edges */
         font-size: 16px;    /* 16px prevents iOS from "zooming in" on focus */
         background-image: url(./img/cat\ dog.avif);
+        padding: 1rem;
 
         /*Centers and scales image*/
         background-position: center;
