@@ -85,11 +85,12 @@ textarea {
     background-image: url(./img/cat\ dog.avif);
 
     /*Centers and scales image*/
-    background-position: center;
+    background-position-y: -100px;
     background-repeat: no-repeat;
+    background-repeat-y: no-repeat;
 
     /* contain reduces size*/
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 
