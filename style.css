@@ -288,7 +288,7 @@ textarea {
     .container {
         display: grid;
         height: auto;
-        width: 75%;
+        width: 200px;
     }
 
 
