@@ -298,7 +298,7 @@ textarea {
         hyphens: auto;
         word-wrap: break-word;
         overflow-wrap: break-word;
-        font-size: small;
+        font-size: 9px;
     }
 
     /* Paragraphs Contact Page */
