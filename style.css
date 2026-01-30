@@ -295,11 +295,9 @@ textarea {
 
     /* First Paragraph Contact Page */
     #first{
-        font-size: small;
-        display: -webkit-box;
-        -webkit-line-clamp: 3; /* Show only 3 lines */
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+        line-height: 1.6;        /* Standard for readability */
+        letter-spacing: 0.02rem; /* Subtle space between letters */
+        margin-bottom: 1.5rem;   /* Larger gap between paragraphs */
     }
 
     /* Paragraphs Contact Page */
