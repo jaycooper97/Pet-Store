@@ -220,7 +220,7 @@ textarea {
 
 
 
-@media (320px <=width <=480px) {
+@media (320px <=width <= 480px) {
     #nav-link {
         color: rgb(3, 139, 55);
         font-size: 15px;
@@ -388,7 +388,7 @@ textarea {
 
 
 
-@media (481px <=width <=768px) {
+@media (481px <=width <= 768px) {
     #nav-link {
         font-size: 25px;
         color: darkslateblue;
@@ -530,7 +530,7 @@ textarea {
 }
 
 
-@media (769px <=width <=1024px) {
+@media (769px <=width <= 1024px) {
     #nav-link {
         font-size: 25px;
         color: rgb(15, 2, 98);
@@ -658,7 +658,7 @@ textarea {
 }
 
 
-@media (width >=1025px) {
+@media (width >= 1025px) {
     #nav-link {
         font-size: 30px;
         color: orange;
