@@ -295,9 +295,9 @@ textarea {
 
     /* First Paragraph Contact Page */
     #first{
-        line-height: 1.6;        /* Standard for readability */
-        letter-spacing: 0.02rem; /* Subtle space between letters */
-        margin-bottom: 1.5rem;   /* Larger gap between paragraphs */
+        hyphens: auto;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     /* Paragraphs Contact Page */
