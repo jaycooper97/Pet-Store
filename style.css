@@ -299,11 +299,10 @@ textarea {
     #first{
         hyphens: auto;
         word-wrap: break-word;
-        overflow-wrap: break-word;
+        overflow: hidden;
         font-size: 15px;
-        display: flex;
-        flex-direction: column; /* Force stack on mobile */
-        height: auto;
+        box-sizing: border-box;
+
     }
 
     /* Paragraphs Contact Page */
