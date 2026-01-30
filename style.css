@@ -284,6 +284,24 @@ textarea {
         text-align: center;
     }
 
+
+    /* Title Contact Page */
+    #head{
+        text-align: center;
+    }
+
+
+    /* First Paragraph Contact Page */
+    #first{
+        font-size: 15px;
+    }
+
+    /* Paragraphs Contact Page */
+    .hrs{
+
+    }
+
+
     /* Form's Container */
     .container {
         display: grid;
