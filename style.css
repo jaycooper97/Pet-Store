@@ -305,7 +305,7 @@ textarea {
     /* Style Attribute for Form */
     style{
         background-image: url(./img/cat\ dog.avif);
-        margin-left: -1px;
+        left: 0px;
     }
 
 
