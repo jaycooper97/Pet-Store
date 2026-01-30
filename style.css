@@ -301,6 +301,7 @@ textarea {
         font-size: small;
         display: flex;
         flex-direction: column; /* Force stack on mobile */
+        min-width: 0; /*removes floor of element*/
     }
 
     /* Paragraphs Contact Page */
