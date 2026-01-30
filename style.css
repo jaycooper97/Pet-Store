@@ -298,7 +298,9 @@ textarea {
         hyphens: auto;
         word-wrap: break-word;
         overflow-wrap: break-word;
-        font-size: 9px;
+        font-size: small;
+        display: flex;
+        flex-direction: column; /* Force stack on mobile */
     }
 
     /* Paragraphs Contact Page */
