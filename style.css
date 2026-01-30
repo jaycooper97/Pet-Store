@@ -298,10 +298,7 @@ textarea {
     /* First Paragraph Contact Page */
     #first{
         hyphens: auto;
-        word-wrap: break-word;
-        overflow: hidden;
         font-size: 15px;
-        box-sizing: border-box;
 
     }
 
@@ -788,3 +785,6 @@ textarea {
         background-color: rgb(1, 82, 82);
     }
 }
+
+
+ * { outline: 1px solid red !important; } /* shows element boundaries * /
