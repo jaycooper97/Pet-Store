@@ -299,7 +299,7 @@ textarea {
     #first{
         hyphens: auto;
         font-size: 15px;
-        text-align: left;
+        text-align: justify;
 
     }
 
