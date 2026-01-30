@@ -302,6 +302,17 @@ textarea {
     }
 
 
+    /* Style Attribute for Form */
+    style{
+        background-image: url(./img/cat\ dog.avif);
+        margin-left: -1px;
+    }
+
+
+
+
+
+
     /* Input Specifics */
     .input[type=text]{
          width: 100%;           /* Makes the input fill the container */
