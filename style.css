@@ -293,6 +293,14 @@ textarea {
     }
 
 
+    /* Helps paragraph to break at certain points */
+    .mobile-break{
+        display: block;
+        content: "";  /* Ensures consistent behavior across browsers */
+    }
+
+
+
     /* First Paragraph Contact Page */
     #first{
         hyphens: auto;
@@ -301,7 +309,7 @@ textarea {
         font-size: 15px;
         display: flex;
         flex-direction: column; /* Force stack on mobile */
-        line-height: 1.6;
+        height: auto;
     }
 
     /* Paragraphs Contact Page */
