@@ -305,9 +305,9 @@ textarea {
     /* Style Attribute for Form */
     style{
         background-image: url(./img/cat\ dog.avif);
-        left: 0px;
-        width: 50%;
-        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: 40%;    /* Shrinks the image size */
+        background-position: left center; /* Positions image on the left edge */
     }
 
 
