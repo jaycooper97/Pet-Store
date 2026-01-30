@@ -299,8 +299,8 @@ textarea {
     #first{
         hyphens: auto;
         font-size: 15px;
-        text-align: justify;
-
+        text-align: left;
+        align-items: flex-start;
     }
 
     /* Paragraphs Contact Page */
