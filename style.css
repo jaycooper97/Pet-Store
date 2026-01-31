@@ -293,7 +293,6 @@ textarea {
     }
 
 
-
     /* First Paragraph Contact Page */
     #first{
         font-size: 18.7px;
@@ -303,6 +302,7 @@ textarea {
     /* Paragraphs Contact Page */
     .hrs{
         font-size: 20px;
+        color: rgb(3, 139, 55)
     }
 
 
@@ -366,7 +366,7 @@ textarea {
     .list-inline-item {
         font-size: x-large;
         font-style: oblique;
-        color: rgb(3, 139, 55);
+        color: cadetblue;
     }
 
     /*footer styles*/
