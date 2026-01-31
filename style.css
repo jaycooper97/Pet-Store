@@ -443,6 +443,7 @@ textarea {
     #first {
         font-size: 20px;
         color: rgb(46, 27, 93);
+        margin: 8px 8px 0 0;
     }
 
     /* card container */
