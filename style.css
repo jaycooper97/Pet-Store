@@ -629,7 +629,7 @@ textarea {
 
     /* input text styles */
     ::placeholder {
-        color: aquamarine;
+        color: rgb(82, 187, 152);
     }
 
 
