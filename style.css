@@ -299,11 +299,8 @@ textarea {
 
     /* First Paragraph Contact Page */
     #first{
-        hyphens: auto;
         font-size: 15px;
-        text-align: left;
-        grid-template-columns: 1fr; /* Stack everything in one column */
-        justify-items: start; /* Pushes the paragraph box to the left */
+        justify-self: start;
     }
 
     /* Paragraphs Contact Page */
