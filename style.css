@@ -1,5 +1,6 @@
 /* justify-items = display: grid */
 /* align-items = flexbox display */
+/* if dev tools responsive page too zoomed in = Ctrl + 0(zero) */
 body {
     background-color: blanchedalmond;
 }
@@ -225,16 +226,16 @@ textarea {
 @media (width <= 480px) {
     #nav-link {
         color: rgb(3, 139, 55);
-        font-size: 15px;
-        margin-left: 8px;
+        font-size: 18px;
+        margin-left: 12px;
     }
 
     /*1st headings' styles*/
     #head {
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
         color: cadetblue;
-        margin: 8px;
+        margin: 12px;
     }
 
     /*2nd headings' styles*/
@@ -300,6 +301,7 @@ textarea {
     /* First Paragraph Contact Page */
     #first{
         font-size: 15px;
+        grid-template-columns: 1fr;
         justify-self: start;
     }
 
