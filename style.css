@@ -441,9 +441,9 @@ textarea {
 
     /*content paragraphs*/
     #first {
-        font-size: 1rem;
+        font-size: 17.3px;
         color: rgb(46, 27, 93);
-        text-align: right;
+        padding-left: 12px;
     }
 
     /* card container */
