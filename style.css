@@ -421,6 +421,7 @@ textarea {
     /* navbar container */
     #navbar{
         padding-left: 12px;
+        gap: 10px;
     }
 
     #nav-link {
