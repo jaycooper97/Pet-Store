@@ -441,9 +441,9 @@ textarea {
 
     /*content paragraphs*/
     #first {
-        font-size: 20px;
+        font-size: 1rem;
         color: rgb(46, 27, 93);
-        margin: auto;
+        text-align: right;
     }
 
     /* card container */
@@ -512,12 +512,6 @@ textarea {
         display: block;
         margin: 0;
         padding: 0;
-
-        /* background-position: 100%;
-    background-repeat: no-repeat; */
-
-        /*contain reduces size*/
-        /* background-size: auto;*/
     }
 
     /*list of icons*/
