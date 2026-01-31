@@ -780,7 +780,8 @@ textarea {
     /*footer styles*/
     .foot {
         font-size: 20.5px;
-        background-color: rgb(1, 82, 82);
+        background-color: #015252;
+        color: #54cace;
     }
 }
 
