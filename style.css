@@ -447,9 +447,9 @@ textarea {
         font-style: italic;
     }
 
-    /*content paragraphs*/
+    /*1st content paragraphs*/
     #first {
-        font-size: 17.3px;
+        font-size: 20px;
         color: rgb(46, 27, 93);
         padding-left: 12px;
     }
