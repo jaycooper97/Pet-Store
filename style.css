@@ -629,18 +629,10 @@ textarea {
 
     /* input text styles */
     .input[type=text][type=placeholder] {
-
+        color: aquamarine;
     }
 
 
-
-    /*Input fields' text styles*/
-    input,
-    select,
-    textarea {
-        font-size: x-large;
-
-    }
 
     /*Contact Page's Container for Form*/
     .container {
