@@ -422,7 +422,7 @@ textarea {
         font-size: 25px;
         color: rgb(15, 2, 98);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 8px 10px 0 0;
+        margin: auto;
     }
 
     /*1st headings' styles*/
@@ -443,7 +443,7 @@ textarea {
     #first {
         font-size: 20px;
         color: rgb(46, 27, 93);
-        margin: 8px 8px 0 0;
+        margin: auto;
     }
 
     /* card container */
@@ -623,6 +623,8 @@ textarea {
     ::placeholder {
         color: rgb(82, 187, 152);
         font-size: larger;
+        font-style: italic;
+        font-weight: bold;
     }
 
 
