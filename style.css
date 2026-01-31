@@ -457,8 +457,8 @@ textarea {
 
     /* card container */
     .card{
-        display: flex;
-        flex-direction: column; /* Switches from horizontal to vertical stack */           
+        display: grid;
+        grid-template-columns: 1fr; /* Forces exactly one full-width column */
         margin: 12px;
     }
 
