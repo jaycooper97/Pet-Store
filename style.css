@@ -421,13 +421,14 @@ textarea {
     /* navbar container */
     #navbar{
         padding-left: 12px;
-        gap: 10px;
+
     }
 
     #nav-link {
         font-size: 25px;
         color: rgb(15, 2, 98);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        gap: 10px;
     }
 
     /*1st headings' styles*/
