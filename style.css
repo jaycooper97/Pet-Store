@@ -289,9 +289,7 @@ textarea {
 
     /* Title Contact Page */
     #head{
-        text-align: center;
-        margin-left: -80.7px;
-        font-size: small;
+        font-size: large;
     }
 
 
@@ -789,4 +787,4 @@ textarea {
 }
 
 
- /** { outline: 1px solid red !important; }*/ /* shows element boundaries * /
+ /* * { outline: 1px solid red !important; }*/ /* shows element boundaries * /
