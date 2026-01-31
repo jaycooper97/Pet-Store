@@ -300,6 +300,7 @@ textarea {
         font-size: 15px;
         grid-template-columns: 1fr;
         justify-self: start;
+        word-wrap: break-word;
     }
 
     /* Paragraphs Contact Page */
