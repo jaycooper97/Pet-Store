@@ -458,8 +458,7 @@ textarea {
     /* card container */
     .card{
         display: flex;
-        flex-direction: column; /* Switches from horizontal to vertical stack */
-        gap: 1.25rem;           /* Adds clean vertical space between cards */
+        flex-direction: column; /* Switches from horizontal to vertical stack */           
         margin: 12px;
     }
 
