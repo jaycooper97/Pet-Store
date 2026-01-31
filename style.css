@@ -628,7 +628,7 @@ textarea {
     }
 
     /* input text styles */
-    .input[type=text][type=placeholder] {
+    ::placeholder {
         color: aquamarine;
     }
 
