@@ -457,6 +457,9 @@ textarea {
 
     /* card container */
     .card{
+        display: flex;
+        flex-direction: column; /* Switches from horizontal to vertical stack */
+        gap: 1.25rem;           /* Adds clean vertical space between cards */
         margin: 12px;
     }
 
@@ -464,7 +467,7 @@ textarea {
     /*cards' image*/
     .img {
         size: 28px;
-        max-width: 380px;
+        width: 100%;
         border: 4px ridge rgb(201, 92, 165);
     }
 
@@ -472,6 +475,7 @@ textarea {
     .card-body {
         background-color: rgb(226, 159, 204);
         border: 4px ridge rgb(201, 92, 165);
+        width: 100%;
     }
 
     /*cards' title*/
