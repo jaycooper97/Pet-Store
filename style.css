@@ -418,11 +418,15 @@ textarea {
 
 
 @media (769px <= width <= 1024px) {
+    /* navbar container */
+    #navbar{
+        padding: auto;
+    }
+
     #nav-link {
         font-size: 25px;
         color: rgb(15, 2, 98);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding: auto;
     }
 
     /*1st headings' styles*/
