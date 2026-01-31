@@ -420,7 +420,7 @@ textarea {
 @media (769px <= width <= 1024px) {
     /* navbar container */
     #navbar{
-        padding: auto;
+        padding-left: 12px;
     }
 
     #nav-link {
