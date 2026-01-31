@@ -294,15 +294,15 @@ textarea {
 
 
 
-
     /* First Paragraph Contact Page */
     #first{
         font-size: 15px;
+        color: rgb(3, 139, 55);
     }
 
     /* Paragraphs Contact Page */
     .hrs{
-
+        font-size: 15px;
     }
 
 
