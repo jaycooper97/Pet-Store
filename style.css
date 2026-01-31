@@ -436,7 +436,9 @@ textarea {
     /*2nd headings' styles*/
     #head2 {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 34px
+        font-size: 34px;
+        padding-left: 12px;
+        font-style: italic;
     }
 
     /*content paragraphs*/
