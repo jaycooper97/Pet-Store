@@ -1,6 +1,7 @@
 /* justify-items = display: grid */
 /* align-items = flexbox display */
 /* if dev tools responsive page too zoomed in = Ctrl + 0(zero) */
+/* multiple margin values order = Top, Right, Bottom, Left */
 body {
     background-color: blanchedalmond;
 }
@@ -118,11 +119,6 @@ textarea {
     width: 100%;
 }
 
-
-        font-size: .85rem;
-        margin-bottom: 0;
-    }
-} */
 /* MEDIA QUERIES */
 @media (width <= 480px) {
     #nav-link {
@@ -274,12 +270,6 @@ textarea {
     .foot {
         font-size: .85rem;
         margin-bottom: 0;
-        /*padding-block: 1rem;*/ /* Reduces space at the top and bottom */
-        /*padding-inline: 0;*/   /* Keeps side padding as needed */
-        /* min-height: 14px;
-        height: auto;
-        align-items: center;
-        justify-content: center; */
     }
 }
 
@@ -432,8 +422,7 @@ textarea {
         font-size: 25px;
         color: rgb(15, 2, 98);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin-top: 8px;
-        margin-right: 10px;
+        margin: 8px 10px 0 0;
     }
 
     /*1st headings' styles*/
