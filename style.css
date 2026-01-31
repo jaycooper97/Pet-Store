@@ -422,7 +422,7 @@ textarea {
         font-size: 25px;
         color: rgb(15, 2, 98);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: auto;
+        padding: auto;
     }
 
     /*1st headings' styles*/
