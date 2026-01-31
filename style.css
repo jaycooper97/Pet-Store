@@ -627,9 +627,10 @@ textarea {
         text-align: center;
     }
 
-    /* input text styles */
+    /* placeholder styles */
     ::placeholder {
         color: rgb(82, 187, 152);
+        font-size: larger;
     }
 
 
