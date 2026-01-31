@@ -1,3 +1,5 @@
+/* justify-items = display: grid */
+/* align-items = flexbox display */
 body {
     background-color: blanchedalmond;
 }
@@ -300,7 +302,8 @@ textarea {
         hyphens: auto;
         font-size: 15px;
         text-align: left;
-        align-items: flex-start;
+        grid-template-columns: 1fr; /* Stack everything in one column */
+        justify-items: start; /* Pushes the paragraph box to the left */
     }
 
     /* Paragraphs Contact Page */
