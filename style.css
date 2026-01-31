@@ -746,6 +746,7 @@ textarea {
         padding: 8px;
         margin: 1px;
         opacity: 75%;
+        color: rgb(1, 185, 185);
     }
 
     /*Centers and scales image*/
@@ -755,7 +756,7 @@ textarea {
         padding: 0;
     }
 
-    /*list of icons*/
+    /*list of icons (FB and X)*/
     .list-inline-item {
         font-size: 50px;
         width: 200px;
@@ -780,7 +781,7 @@ textarea {
     /*footer styles*/
     .foot {
         font-size: 20.5px;
-        background-color: #54cace;
+        background-color: #85fbff;
         color: #015252;
     }
 }
