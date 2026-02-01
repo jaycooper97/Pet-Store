@@ -457,8 +457,7 @@ textarea {
 
     /* card container */
     .card{
-        display: grid;
-        grid-template-columns: 1fr; /* Forces exactly one full-width column */
+        display: flex;
         margin: 12px;
     }
 
