@@ -151,7 +151,8 @@ body {
 
 @media (width <= 480px){
     /* Navbar Styles */
-    #shop-nav-link {
+    #shop-nav-link,
+    #navbar {
     color: crimson;
     margin-left: 8px;
     padding-left: 8px;
