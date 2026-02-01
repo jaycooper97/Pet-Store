@@ -570,8 +570,7 @@ textarea {
 
     /* navbar container */
     #navbar{
-        padding-left: 12px;
-        margin: 12px;
+        padding-left: 8px;
     }
 
 
@@ -581,7 +580,7 @@ textarea {
         color: orange;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-style: bolder;
-        padding-left: 10px;
+        padding-left: 13px;
     }
 
     /*1st headings' styles*/
