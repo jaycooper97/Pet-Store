@@ -571,10 +571,11 @@ textarea {
     /* navbar container */
     #navbar{
         padding-left: 12px;
+        margin: 12px;
     }
 
 
-    
+
     #nav-link {
         font-size: 30px;
         color: orange;
