@@ -163,21 +163,24 @@ body {
     #head{
         font-size: 25px;
         margin-left: 8px;
+        color: cadetblue;
     }
 
 
     /* 2nd Heading  Styles */
     #head2{
         font-size: 20px;
-        color: #75033c;
+        color: darkorange;
+        font-style: oblique;
         margin-left: 8px;
     }
 
 
     /* Paragraphs */
     #first{
-        font-size: 11px;
+        font-size: 20px;
         margin-left: 8px;
+        color: darkblue;
     }
 
 
