@@ -147,9 +147,17 @@ body {
 
 
 
-         /* MEDIA QUERIES */
-    @media (width < 320px){
+      /* MEDIA QUERIES */
+    @media (width <= 480px){
+    /* Navbar Styles */
+    #navbar{
 
+    }
+
+
+    /* Navbar Links */
+    #shop-nav-link {
+        font-size: 30px;
     }
 
 
