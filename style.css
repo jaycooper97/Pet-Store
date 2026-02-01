@@ -455,6 +455,12 @@ textarea {
     }
 
 
+    /* Rest of Paragraphs */
+    .p{
+        padding-left: 13px;
+    }
+
+
     /* Card div */
     .row{
         display: flex !important;
