@@ -455,10 +455,17 @@ textarea {
         padding-top: 10px;
     }
 
-    /* card container */
-    .card{
+
+    /* Card div */
+    .row{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    /* card container */
+    .card{
         margin: 12px;
     }
 
