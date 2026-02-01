@@ -567,12 +567,19 @@ textarea {
 
 
 @media (width >= 1025px) {
+
+    /* navbar container */
+    #navbar{
+        padding-left: 12px;
+    }
+
+
+    
     #nav-link {
         font-size: 30px;
         color: orange;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-style: bolder;
-        padding-left: 12px;
     }
 
     /*1st headings' styles*/
