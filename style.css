@@ -602,12 +602,12 @@ textarea {
     #first {
         font-size: 27.5px;
         color: rgb(39, 2, 65);
-        padding-left: 12px;
+        padding-left: 20px;
     }
 
     /* Rest of Paragraphs */
     .p{
-        padding-left: 12px;
+        padding-left: 20px;
     }
 
 
