@@ -151,6 +151,7 @@ body {
     color: crimson;
     margin-left: 6px;
     padding-left: 6px;
+    padding-top: 10px;
     display: flex !important;
     flex-direction: column !important;   /*stack links vertically*/
     align-items: center !important;
