@@ -458,6 +458,7 @@ textarea {
     /* card container */
     .card{
         display: flex;
+        flex-wrap: wrap;
         margin: 12px;
     }
 
