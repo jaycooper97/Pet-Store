@@ -581,6 +581,7 @@ textarea {
         color: orange;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-style: bolder;
+        padding-left: 10px;
     }
 
     /*1st headings' styles*/
