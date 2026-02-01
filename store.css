@@ -148,10 +148,11 @@ body {
     /* Navbar Styles */
     #shop-nav-link,
     #navbar {
-    color: crimson;
+    color: rgb(3, 139, 55);
     margin-left: 6px;
     padding-left: 6px;
     padding-top: 10px;
+    font-size: 18px;
     display: flex !important;
     flex-direction: column !important;   /*stack links vertically*/
     align-items: center !important;
