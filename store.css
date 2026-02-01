@@ -147,27 +147,9 @@ body {
 
 
 
-      /* MEDIA QUERIES */
-    @media (width <= 480px){
-    /* Navbar Styles */
-    #navbar{
+    /* MEDIA QUERIES */
 
-    }
-
-
-    /* Navbar Links */
-    #shop-nav-link {
-        font-size: 30px;
-    }
-
-
-
-
-
-
-
-
-@media (320px <= width <=480px){
+@media (width <= 480px){
     /* Navbar Styles */
     #shop-nav-link {
     color: crimson;
@@ -181,8 +163,6 @@ body {
         font-size: 16px;
         margin-left: 8px;
     }
-
-
 
 
     /* 2nd Heading  Styles */
@@ -243,8 +223,6 @@ body {
         height: 200px;
     }
 
-
-
     /* footer */
     .foot{
     font-size: 10px;
@@ -258,26 +236,22 @@ body {
 
 
 
+@media (481px <= width <= 768px){
 
-
-
-
-
-@media (width >=1025px){
-    /* Navbar Styles */
-    #shop-nav-link {
-    color: crimson;
-    font-size: 20.5px;
-    margin-left: 9px;
-    padding-left: 9px;
 }
 
 
 
 
-    /* Card Styles */
-    .card{
-        display: flex;
-        flex: 0 0 auto;
-    }
+
+@media (769px <= width <= 1024px) {
+    /* navbar container */
+
+}
+
+
+
+
+@media (width >= 1025px){
+
 }
