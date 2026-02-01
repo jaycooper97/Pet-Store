@@ -421,7 +421,6 @@ textarea {
     /* navbar container */
     #navbar{
         padding-left: 12px;
-
     }
 
     #nav-link {
@@ -443,7 +442,7 @@ textarea {
     #head2 {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 34px;
-        padding-left: 12px;
+        padding-left: 20px;
         font-style: italic;
     }
 
