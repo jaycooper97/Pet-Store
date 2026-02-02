@@ -149,7 +149,7 @@ body {
     #shop-nav-link,
     #navbar {
     color: rgb(3, 139, 55);
-    padding-left: 10px;
+    padding-left: 20px;
     padding-top: 10px;
     font-size: 25px;
     display: flex !important;
@@ -164,6 +164,7 @@ body {
         color: cadetblue;
         font-style: italic;
         text-align: center;
+        padding-top: 10px;
     }
 
 
