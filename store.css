@@ -177,6 +177,15 @@ body {
     }
 
 
+
+    /*Add to Cart Buttons*/
+    .add-to-cart{
+    margin-left: 4px;
+    }
+
+
+
+
     /*Card Styles*/
     .card{
     width: 268px;
