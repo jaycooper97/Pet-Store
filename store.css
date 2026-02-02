@@ -9,7 +9,7 @@ body {
     font-size: 22px;
     margin-left: 12px;
     padding-left: 10px;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 /*Shopping Cart buttons*/
@@ -163,7 +163,6 @@ body {
     /*Add to Cart Buttons*/
     .add-to-cart{
     margin-left: 8px;
-    padding-top: 20px;
     font-size: 15px;
     }
 
