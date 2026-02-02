@@ -184,6 +184,7 @@ body {
     flex: column !important;
     align-items: center !important;
     padding-top: 10px;
+    gap: 5px;
     }
 
 
