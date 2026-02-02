@@ -149,12 +149,22 @@ body {
     #shop-nav-link,
     #navbar {
     color: rgb(3, 139, 55);
-    padding-left: 20px;
+    padding-left: 14px;
     padding-top: 10px;
     font-size: 25px;
     display: flex !important;
     flex-wrap: wrap !important;   /*wrap links to new line if needed*/
     }
+
+
+
+    /*Add to Cart Buttons*/
+    .add-to-cart{
+    margin-left: 8px;
+    padding-top: 8px;
+    font-size: 15px;
+    }
+
 
 
     /* 1st Headings */
@@ -178,10 +188,7 @@ body {
 
 
 
-    /*Add to Cart Buttons*/
-    .add-to-cart{
-    margin-left: 8px;
-    }
+
 
 
 
