@@ -179,12 +179,12 @@ body {
     /*Card Styles*/
     .card{
     width: 268px;
-    height: 170px;
+    height: 160px;
     display: flex;
     flex: column !important;
     align-items: center !important;
     padding-top: 10px;
-    gap: 13px;
+    gap: 20px;
     }
 
 
