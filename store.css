@@ -183,8 +183,7 @@ body {
     display: flex;
     flex: column !important;
     align-items: center !important;
-    padding-top: 10px;
-    gap: 40px;
+    padding-top: 30px;
     }
 
 
