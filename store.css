@@ -178,11 +178,12 @@ body {
 
     /*Card Styles*/
     .card{
-    width: 175px;
-    height: 175px;
+    width: auto;
+    height: auto;
     display: flex;
     flex: column !important;
     align-items: center !important;
+    padding-top: 10px;
     }
 
 
