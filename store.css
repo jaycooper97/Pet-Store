@@ -190,8 +190,8 @@ body {
 
     /* Card Images */
     .card-img-top{
-        width: 309px;
-        height: 381.84px;
+        width: auto;
+        height: auto;
     }
 
 
