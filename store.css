@@ -160,6 +160,14 @@ body {
 
 
 
+    /* cart & clear cart buttons */
+    .btn {
+        padding-top: 20px;
+        display: flex !important;
+        flex-wrap: wrap !important;   /*wrap buttons to new line if needed*/    
+    }
+
+
     /*Add to Cart Buttons*/
     .add-to-cart{
     margin-left: 8px;
