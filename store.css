@@ -156,6 +156,7 @@ body {
     display: flex !important;
     flex-direction: column !important;   /*stack links vertically*/
     align-items: center !important;
+    flex-wrap: wrap !important;   /*wrap links to new line if needed*/
     }
 
 
