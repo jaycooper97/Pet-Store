@@ -179,7 +179,7 @@ body {
     /*Card Styles*/
     .card{
     width: 280px;
-    height: auto;
+    height: 200px;
     display: flex;
     flex: column !important;
     align-items: center !important;
