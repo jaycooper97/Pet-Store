@@ -176,22 +176,15 @@ body {
     }
 
 
-    /* Paragraphs */
-    #first{
-        font-size: 20px;
-        margin-left: 8px;
-        color: darkblue;
-    }
-
-
-
     /*Card Styles*/
     .card{
-    width: 235px;
+    width: 175px;
     height: 175px;
     display: flex;
-    flex: 0 0 auto;
+    flex: column !important;
+    align-items: center !important;
     }
+
 
     /* Card Images */
     .card-img-top{
