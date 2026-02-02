@@ -19,14 +19,15 @@ body {
     font-size: 17.5px;
     border: solid 3px;
     border-radius: 1rem;
-    margin: 10px;
+    margin: 20px;
+    padding-left: 10px;
 }
 /*Add to Cart Buttons*/
 .add-to-cart{
     font-size: 17.5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 12px;
-    padding-top: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
 }
 /*Main Heading styling*/
 #head{
@@ -164,7 +165,7 @@ body {
     .btn {
         padding-top: 20px;
         display: flex !important;
-        flex-wrap: wrap !important;   /*wrap buttons to new line if needed*/    
+        flex-wrap: wrap !important;   /*wrap buttons to new line if needed*/
     }
 
 
