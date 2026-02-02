@@ -179,7 +179,7 @@ body {
     /*Card Styles*/
     .card{
     width: 268px;
-    height: 188px;
+    height: 90px;
     display: flex;
     flex: column !important;
     align-items: center !important;
@@ -190,7 +190,7 @@ body {
 
     /* Card Images */
     .card-img-top{
-        width: 265.8px;
+        width: 265.9px;
         height: 200px;
     }
 
