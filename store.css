@@ -4,7 +4,8 @@ body {
 }
 
 /*Links in Navbar*/
-#shop-nav-link {
+#shop-nav-link,
+#navbar {
     color: crimson;
     font-size: 22px;
     margin-left: 12px;
