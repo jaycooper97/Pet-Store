@@ -178,7 +178,7 @@ body {
 
     /*Card Styles*/
     .card{
-    width: 290px;
+    width: 280px;
     height: auto;
     display: flex;
     flex: column !important;
